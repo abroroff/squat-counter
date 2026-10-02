@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build artifacts (PyInstaller)
+build/
+dist/
+*.spec
+
+# Pose model — downloaded automatically on first run
+models/*.task
+models/*.part
+
+# OS
+.DS_Store
